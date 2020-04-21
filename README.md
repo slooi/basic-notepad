@@ -1,2 +1,2 @@
 # basic-notepad
-Supper basic notepad that saves data locally.
+Super basic notepad that saves data locally.
