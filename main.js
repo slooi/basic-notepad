@@ -2,6 +2,10 @@ console.log('main.js loaded')
 const textarea = document.getElementById('textarea')
 
 
+//##################
+// DATA FUNCTIONS
+//##################
+
 // LOAD DATA
 loadText()
 
@@ -21,11 +25,21 @@ function loadText(){
 	textarea.value = text
 }
 
+
+//##################
+// BUTTON FUNCTIONS
+//##################
 function increaseLength(){
 	textarea.style.height = textarea.clientHeight+1000+'px'
 }
 
+function backToTop(){
+	window.location.href = "#top"
+}
 
+//##################
+// EVENTLISTENERS
+//##################
 textarea.addEventListener('keydown',e=>{
 	saveText()
 })
